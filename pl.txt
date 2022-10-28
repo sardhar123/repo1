@@ -1,0 +1,257 @@
+ 1  yum install git -y
+    2  git init .
+    3  git branch 
+    4  touch raham{1..3}
+    5  git add *
+    6  git commit -m "firts commit" *
+    7  git branch 
+    8  git remote add origin https://github.com/Venkatareddy1714/reopo2.git
+    9  git push origin master 
+   10  ls
+   11  git clone https://github.com/manusa/actions-setup-minikube.git
+   12  ll
+   13  cd actions-setup-minikube/
+   14  ll
+   15  cd 
+   16  ls
+   17  cat>raham1
+   18  git add raham1 
+   19  git commit -m "raham-1"
+   20  git checkout -b raju
+   21  ll
+   22  cat raham
+   23  cat raham1
+   24  cat>raham1
+   25  git add raham1 
+   26  git commit -m "raham-1" raham1 
+   27  cat raham1
+   28  git checkout master 
+   29  cat raham1
+   30  cat>>raham1
+   31  cat raham1
+   32  git merge raju 
+   33  cat raham1
+   34  git branch raju 
+   35  git checkout raju 
+   36  git branch raju 
+   37  git branch
+   38  git stash
+   39  git merge raju
+   40  cat raham1
+   41  git branch 
+   42  git checkout raju 
+   43  cat raham1
+   44  git merge master 
+   45  ll
+   46  git merge -m master 
+   47  git log
+   48  git show 375ba81d4d5a75ed7392aeac981960f450b26021 raham1
+   49  cat raham
+   50  cat raham1
+   51  git checkout master 
+   52  cat raham1
+   53  vim raham1
+   54  cat raham
+   55  cat raham1
+   56  cat>>raham1
+   57  cat raham1
+   58  git add raham1 
+   59  git commit -m "raham commits" raham1 
+   60  cat raham1
+   61  git checkout raju 
+   62  cat raham1
+   63  git merge raju 
+   64  ll
+   65  history
+   66  git pull
+   67  ll
+   68  git status 
+   69  touch abc{1..3}.txt
+   70  git status 
+   71  touch ramya
+   72  git status 
+   73  vim .gitignore
+   74  git status 
+   75  history
+[root@ip-172-31-83-184 ~]# 
+
+===================
+NEW INSTANCE
+
+  1  yum install git -y
+    2  git init
+    3  cat>file1
+    4  ll
+    5  cat file1 
+    6  git add file1 
+    7  git commit -m "line-1" file1 
+    8  git checkout -b branch-1
+    9  ls
+   10  cat file1 
+   11  cat>file1 
+   12  cat file1 
+   13  git add file1 
+   14  git commit -m "LINE-2" file1 
+   15  git checkout master 
+   16  cat file1 
+   17  cat>>file1 
+   18  git add file1 
+   19  git commit -m "LINE-3" file1 
+   20  cat file1 
+   21  git merge branch-1 
+   22  history
+   23  cat file1 
+   24  vim file1 
+   25  cat file1 
+   26  git merge branch-1 
+   27  cat file1 
+   28  git add file1 
+   29* git commit -m "commit" file1 
+   30  git add file1 
+   31  cat file1 
+   32  ls
+   33  git log
+   34  git checkout branch-1 
+   35  ls
+   36  git checkout master'
+   37  git checkout master
+   38  touch file1
+   39  touch file2
+   40  ls
+   41  git add file2 
+   42  git commit -m "file2 commits" file2
+   43  git log
+   44  git checkout branch-1 
+   45  git branch
+   46  git stash
+   47  git checkout branch-1 
+   48  git cherry-pick ddf63c8a000750c45ac5105996cad952d2489bc6
+   49  ll
+   50  git checkout master 
+   51  cat>c++file
+   52  cat c++file 
+   53  git stash 
+   54  git add c++file 
+   55  git stash 
+   56  git checkout branch-1 
+   57  cat>json
+   58  git add json 
+   59  git commit -m "json commoits" json 
+   60  git checkout master 
+   61  l
+   62  ls
+   63  ll
+   64  git stash apply
+   65  ls
+   66  cat>>c++file 
+   67  cat c++file 
+   68  git stash list
+   69  git add c++file 
+   70  git stash list
+   71  git stash 
+   72  git stash list
+   73  git stash pop
+   74  git stash list
+   75  git stash clear
+   76  git stash list
+   77  git pull
+   78  history
+[root@ip-172-31-94-126 ~]# 
+
+======================================================================================================================================================================================
+MAVEN:
+
+ 1  wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+    2  ll
+    3  tar -zxvf apache-maven-3.8.6-bin.tar.gz 
+    4  ll
+    5  cd apache-maven-3.8.6/
+    6  ll
+    7  yum install java-1.8.0-openjdk -y
+    8  java -version
+    9  yum install maven -y
+   10  mvn archetype:generate
+   11  ll
+   12  cd devops/
+   13  ls
+   14  ll4
+   15  ll
+   16  git clone https://github.com/Sreekarkota/repo1.git
+   17  yum install git -y
+   18  git clone https://github.com/Sreekarkota/repo1.git
+   19  ll4
+   20  ll
+   21  mvn compile
+   22  l
+   23  ll
+   24  rm -rf *
+   25  cd ..
+   26  ll
+   27  rm -rf devops/
+   28  ll
+   29  mvn compile
+   30  ls
+   31  mvn archetype:generate
+   32  ll
+   33  cd def/
+   34  ll
+   35  ls src/
+   36  ls src/main/
+   37  ls src/main/java/
+   38  ls src/main/java/ghi/
+   39  cat src/main/java/ghi/App.java 
+   40  ll
+   41  ls src/
+   42  yum install tree -y
+   43  tree
+   44  cat src/test/java/ghi/AppTest.java 
+   45  ll
+   46  mvn compile
+   47  pwd
+   48  ll
+   49  ls target/
+   50  ls target/classes/
+   51  ls target/classes/ghi/
+   52  ls src/main/java/ghi/
+   53  mvn test
+   54  tree
+   55  ls target/test-classes/ghi/
+   56  mvn package
+   57  ls target/def-1.0-SNAPSHOT.jar 
+   58  mvn install 
+   59  cd /root/.m2/repository/abc/def/1.0-SNAPSHOT/
+   60  ls
+   61  cd ~/apache-maven-3.8.6/def/target/classes/
+   62  ls
+   63  cd ghi/
+   64  ll
+   65  cd ..
+   66  ls
+   67  ll
+   68  cd ..
+   69  ll
+   70  mvn clean
+   71  ll
+   72  ls src/main/java/ghi/
+   73  mvn compile
+   74  ls /root/apache-maven-3.8.6/def/target/classes/ghi/
+   75  tree
+   76  mvn test
+   77  tree
+   78  mvn package
+   79  ls target/
+   80  mvn install
+   81  ls /root/.m2/repository/abc/def/1.0-SNAPSHOT/
+   82  ll
+   83  cd ..
+   84  mvn compile
+   85  cd def/
+   86  l
+   87  ll
+   88  mvn clean
+   89  ll
+   90  mvn test
+   91  ll
+   92  vim pom.xml 
+   93  history 
+[root@ip-172-31-92-149 def]# 
